@@ -4,6 +4,9 @@
 - id: next_page
   translation: "Sonraki Sayfa"
 
+- id: all_posts
+  translation: "Tüm Yazılar"
+
 - id: read_time
   translation:
     one : "1 dk"
@@ -23,3 +26,6 @@
 
 - id: code_copied
   translation: "Kopyalandı!"
+
+- id: read_more
+  translation: "Daha fazla oku"

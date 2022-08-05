@@ -4,6 +4,9 @@
 - id: next_page
   translation: "Next"
 
+- id: all_posts
+  translation: "See more..."
+
 - id: read_time
   translation:
     one : "1 min"
@@ -31,3 +34,6 @@
 
 - id: code_copied
   translation: "copied!"
+
+- id: read_more
+  translation: "Read More"
