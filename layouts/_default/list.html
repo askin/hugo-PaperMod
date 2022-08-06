@@ -64,7 +64,7 @@
 {{- end }}
 
 {{- if $.IsHome  }}
-{{- if ge $index 5 }}
+{{- if lt $index 5 }}
 <article class="{{ $class }}">
   {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
   {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
