@@ -37,3 +37,6 @@
 
 - id: read_more
   translation: "Read More"
+
+- id: tags
+  translation: "Tags"
