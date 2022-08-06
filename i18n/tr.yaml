@@ -29,3 +29,6 @@
 
 - id: read_more
   translation: "Daha fazla oku"
+
+- id: tags
+  translation: "Etiketler"

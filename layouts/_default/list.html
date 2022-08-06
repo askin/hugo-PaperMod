@@ -82,13 +82,14 @@
         {{- end }}
 
         {{ if .Params.tags }}
-        <ul class="post-tags" style="padding-top: 8px;">
+        <div class="blog-tags">
+            {{ i18n "tags" }}:
             {{ range .Params.tags }}
-            <li><a href="{{ $.Site.LanguagePrefix | absURL }}/tags/{{ . | urlize }}/">{{ . }}</a></li>
+            <a href="{{ $.Site.LanguagePrefix | absURL }}/tags/{{ . | urlize }}/">#{{ . }}</a>&nbsp;
             {{ end }}
-        </ul>
+        </div>
+        {{ end }}
     </footer>
-    {{ end }}
     {{ end }}
 </article>
 {{- else }}
