@@ -40,7 +40,7 @@
 
 {{- if .IsHome }}
 <header class="page-header">
-  <h2>Son yazılar</h2>
+  <h2>{{ i18n "latest_posts" }}</h2>
 </header>
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
