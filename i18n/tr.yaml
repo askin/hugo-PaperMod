@@ -32,3 +32,6 @@
 
 - id: tags
   translation: "Etiketler"
+
+- id: latest_posts
+  translation: "Son yazılar"

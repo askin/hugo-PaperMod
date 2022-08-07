@@ -40,3 +40,6 @@
 
 - id: tags
   translation: "Tags"
+
+- id: latest_posts
+  translation: "Latest posts"
