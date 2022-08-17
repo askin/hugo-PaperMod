@@ -154,7 +154,7 @@
     {{- end }}
     {{- if $paginator.HasNext }}
     {{- if .IsHome}}
-    <a class="next" href="/blog">{{ i18n "all_posts" }} »</a>
+    <a class="next" href="{{ $.Site.LanguagePrefix }}/blog">{{ i18n "all_posts" }} »</a>
     {{- else}}
     <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
     {{- end }}
